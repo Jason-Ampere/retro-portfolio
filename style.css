@@ -23,7 +23,8 @@ img {
 }
 
 #terminal {
-  width: 800px;
+  width: 90%;
+  max-width: 800px;
   height: 780px;
   margin: 20px auto;
   background-color: var(--bg-color);
@@ -254,4 +255,104 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  #terminal {
+    width: 95%;
+    height: auto;
+  }
+
+  #screen {
+    padding: 10px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  .project h3 {
+    font-size: 1.2em;
+  }
+
+  .project p {
+    margin-left: 10px;
+  }
+
+  button {
+    font-size: 0.9em;
+  }
+
+  .menu-item {
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border-radius: 8px;
+  }
+
+  #contact-form {
+    padding: 15px;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    padding: 8px;
+  }
+
+  #contact-form button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .menu-item {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+
+  #content {
+    padding: 10px;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+  }
+
+  .project h3 {
+    font-size: 1em;
+  }
+
+  .project p {
+    font-size: 0.9em;
+    margin-left: 5px;
+  }
+
+  button {
+    font-size: 0.8em;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    padding: 5px;
+    font-size: 0.9em;
+  }
+
+  #contact-form button {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
 }
