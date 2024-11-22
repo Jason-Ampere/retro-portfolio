@@ -97,7 +97,7 @@ const sections = {
     </div>
     <hr>
     <div class="project">
-      <a href="xyz.com" target="_blank"><h3>🖼 Wallpaper Engine</h3></a>
+      <a href="https://github.com/Jason-Ampere/VistaHaven" target="_blank"><h3>🖼 Wallpaper Engine</h3></a>
       <p><b>Tech Stack:</b> React Native, Expo</p>
       <p>A seamless mobile app for browsing and setting a wide variety of wallpapers on devices, enhancing user personalization.</p>
     </div>
